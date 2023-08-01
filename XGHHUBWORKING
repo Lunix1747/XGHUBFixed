@@ -1,0 +1,595 @@
+--[[
+
+		Gui2Lua™
+		10zOfficial
+		Version 1.0.0
+
+]]
+
+
+-- Instances
+
+local ScreenGui = Instance.new("ScreenGui")
+local OpenUI = Instance.new("TextButton")
+local MAIN = Instance.new("Frame")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local InfYeild = Instance.new("TextButton")
+local DestroyButton = Instance.new("TextButton")
+local Fates = Instance.new("TextButton")
+local CMDX = Instance.new("TextButton")
+local CloseB = Instance.new("TextButton")
+local Border = Instance.new("Frame")
+local UH = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local DDV3 = Instance.new("TextButton")
+local CB2 = Instance.new("TextButton")
+local EC = Instance.new("TextButton")
+local ae = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local fa = Instance.new("TextButton")
+local CS = Instance.new("TextButton")
+local g = Instance.new("TextButton")
+local mm2 = Instance.new("TextButton")
+local RE = Instance.new("TextButton")
+local PL = Instance.new("TextButton")
+local JSUWP = Instance.new("TextButton")
+local TextLabel_4 = Instance.new("TextLabel")
+
+-- Properties
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+OpenUI.Name = "OpenUI"
+OpenUI.Parent = ScreenGui
+OpenUI.BackgroundColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+OpenUI.BorderColor3 = Color3.new(0, 0, 0)
+OpenUI.BorderSizePixel = 3
+OpenUI.Position = UDim2.new(-0.000346952816, 0, 0.41747573, 0)
+OpenUI.Size = UDim2.new(0, 117, 0, 41)
+OpenUI.Font = Enum.Font.SourceSans
+OpenUI.Text = "Open UI"
+OpenUI.TextColor3 = Color3.new(0, 0, 0)
+OpenUI.TextScaled = true
+OpenUI.TextSize = 14
+OpenUI.TextWrapped = true
+
+MAIN.Name = "MAIN"
+MAIN.Parent = ScreenGui
+MAIN.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+MAIN.BorderColor3 = Color3.new(0, 0, 0)
+MAIN.BorderSizePixel = 5
+MAIN.Position = UDim2.new(0.316781908, 0, 0.220873788, 0)
+MAIN.Size = UDim2.new(0, 625, 0, 23)
+
+Frame.Parent = MAIN
+Frame.BackgroundColor3 = Color3.new(0.262745, 0.262745, 0.262745)
+Frame.BorderColor3 = Color3.new(0, 0, 0)
+Frame.BorderSizePixel = 5
+Frame.Position = UDim2.new(-0.000124609374, 0, 1.40784621, 0)
+Frame.Size = UDim2.new(0, 625, 0, 362)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.new(0.345098, 0.345098, 0.345098)
+TextLabel.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel.BorderSizePixel = 4
+TextLabel.Size = UDim2.new(0, 149, 0, 107)
+TextLabel.Font = Enum.Font.Gotham
+TextLabel.Text = "Xgh's Fun GUI"
+TextLabel.TextColor3 = Color3.new(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14
+TextLabel.TextWrapped = true
+
+InfYeild.Name = "Inf Yeild"
+InfYeild.Parent = Frame
+InfYeild.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+InfYeild.BorderColor3 = Color3.new(0, 0, 0)
+InfYeild.BorderSizePixel = 3
+InfYeild.Position = UDim2.new(0.0175999999, 0, 0.3480663, 0)
+InfYeild.Size = UDim2.new(0, 122, 0, 50)
+InfYeild.Font = Enum.Font.Code
+InfYeild.Text = "Infinite Yeild"
+InfYeild.TextColor3 = Color3.new(0, 0, 0)
+InfYeild.TextScaled = true
+InfYeild.TextSize = 14
+InfYeild.TextWrapped = true
+
+DestroyButton.Name = "Destroy Button"
+DestroyButton.Parent = Frame
+DestroyButton.BackgroundColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+DestroyButton.BorderColor3 = Color3.new(0, 0, 0)
+DestroyButton.BorderSizePixel = 3
+DestroyButton.Position = UDim2.new(0.249599993, 0, 0, 0)
+DestroyButton.Size = UDim2.new(0, 68, 0, 26)
+DestroyButton.Font = Enum.Font.SourceSans
+DestroyButton.Text = "Destroy UI"
+DestroyButton.TextColor3 = Color3.new(0, 0, 0)
+DestroyButton.TextSize = 14
+
+Fates.Name = "Fates"
+Fates.Parent = Frame
+Fates.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+Fates.BorderColor3 = Color3.new(0, 0, 0)
+Fates.BorderSizePixel = 3
+Fates.Position = UDim2.new(0.0175999999, 0, 0.527624309, 0)
+Fates.Size = UDim2.new(0, 122, 0, 50)
+Fates.Font = Enum.Font.Code
+Fates.Text = "Fate's Admin"
+Fates.TextColor3 = Color3.new(0, 0, 0)
+Fates.TextScaled = true
+Fates.TextSize = 14
+Fates.TextWrapped = true
+
+CMDX.Name = "CMD X"
+CMDX.Parent = Frame
+CMDX.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+CMDX.BorderColor3 = Color3.new(0, 0, 0)
+CMDX.BorderSizePixel = 3
+CMDX.Position = UDim2.new(0.0175999999, 0, 0.715469599, 0)
+CMDX.Size = UDim2.new(0, 122, 0, 50)
+CMDX.Font = Enum.Font.Code
+CMDX.Text = "CMD X"
+CMDX.TextColor3 = Color3.new(0, 0, 0)
+CMDX.TextScaled = true
+CMDX.TextSize = 14
+CMDX.TextWrapped = true
+
+CloseB.Name = "CloseB"
+CloseB.Parent = Frame
+CloseB.BackgroundColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+CloseB.BorderColor3 = Color3.new(0, 0, 0)
+CloseB.BorderSizePixel = 3
+CloseB.Position = UDim2.new(0.927999973, 0, 0, 0)
+CloseB.Size = UDim2.new(0, 45, 0, 41)
+CloseB.Font = Enum.Font.SourceSans
+CloseB.Text = "X"
+CloseB.TextColor3 = Color3.new(0, 0, 0)
+CloseB.TextScaled = true
+CloseB.TextSize = 14
+CloseB.TextWrapped = true
+
+Border.Name = "Border"
+Border.Parent = Frame
+Border.BackgroundColor3 = Color3.new(0.27451, 0.27451, 0.27451)
+Border.BorderColor3 = Color3.new(0, 0, 0)
+Border.BorderSizePixel = 3
+Border.Position = UDim2.new(0.433600008, 0, 0, 0)
+Border.Size = UDim2.new(0, 9, 0, 362)
+
+UH.Name = "UH"
+UH.Parent = Frame
+UH.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+UH.BorderColor3 = Color3.new(0, 0, 0)
+UH.BorderSizePixel = 3
+UH.Position = UDim2.new(0.0432000011, 0, 0.881215453, 0)
+UH.Size = UDim2.new(0, 90, 0, 36)
+UH.Font = Enum.Font.Code
+UH.Text = "Unfair Hub"
+UH.TextColor3 = Color3.new(0, 0, 0)
+UH.TextScaled = true
+UH.TextSize = 14
+UH.TextWrapped = true
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.new(0.345098, 0.345098, 0.345098)
+TextLabel_2.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_2.BorderSizePixel = 4
+TextLabel_2.Position = UDim2.new(0.484800011, 0, 0.0331491716, 0)
+TextLabel_2.Size = UDim2.new(0, 261, 0, 43)
+TextLabel_2.Font = Enum.Font.Gotham
+TextLabel_2.Text = "Scripts For Some Games"
+TextLabel_2.TextColor3 = Color3.new(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14
+TextLabel_2.TextWrapped = true
+
+DDV3.Name = "DDV3"
+DDV3.Parent = Frame
+DDV3.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+DDV3.BorderColor3 = Color3.new(0, 0, 0)
+DDV3.BorderSizePixel = 3
+DDV3.Position = UDim2.new(0.252799988, 0, 0.881215453, 0)
+DDV3.Size = UDim2.new(0, 90, 0, 36)
+DDV3.Font = Enum.Font.Code
+DDV3.Text = "Dark Dex V3"
+DDV3.TextColor3 = Color3.new(0, 0, 0)
+DDV3.TextScaled = true
+DDV3.TextSize = 14
+DDV3.TextWrapped = true
+
+CB2.Name = "CB2"
+CB2.Parent = Frame
+CB2.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+CB2.BorderColor3 = Color3.new(0, 0, 0)
+CB2.BorderSizePixel = 3
+CB2.Position = UDim2.new(0.238399997, 0, 0.3480663, 0)
+CB2.Size = UDim2.new(0, 108, 0, 50)
+CB2.Font = Enum.Font.Code
+CB2.Text = "Chat Bypass"
+CB2.TextColor3 = Color3.new(0, 0, 0)
+CB2.TextScaled = true
+CB2.TextSize = 14
+CB2.TextWrapped = true
+
+EC.Name = "EC"
+EC.Parent = Frame
+EC.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+EC.BorderColor3 = Color3.new(0, 0, 0)
+EC.BorderSizePixel = 3
+EC.Position = UDim2.new(0.238399997, 0, 0.527624309, 0)
+EC.Size = UDim2.new(0, 108, 0, 50)
+EC.Font = Enum.Font.Code
+EC.Text = "Discord Emoji Chat"
+EC.TextColor3 = Color3.new(0, 0, 0)
+EC.TextScaled = true
+EC.TextSize = 14
+EC.TextWrapped = true
+
+ae.Name = "ae"
+ae.Parent = Frame
+ae.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+ae.BorderColor3 = Color3.new(0, 0, 0)
+ae.BorderSizePixel = 3
+ae.Position = UDim2.new(0.238399997, 0, 0.715469599, 0)
+ae.Size = UDim2.new(0, 108, 0, 50)
+ae.Font = Enum.Font.Code
+ae.Text = "Aimbot + ESP"
+ae.TextColor3 = Color3.new(0, 0, 0)
+ae.TextScaled = true
+ae.TextSize = 14
+ae.TextWrapped = true
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.new(0.345098, 0.345098, 0.345098)
+TextLabel_3.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_3.BorderSizePixel = 4
+TextLabel_3.Position = UDim2.new(0.457599998, 0, 0.629834235, 0)
+TextLabel_3.Size = UDim2.new(0, 339, 0, 31)
+TextLabel_3.Font = Enum.Font.Gotham
+TextLabel_3.Text = "Misc"
+TextLabel_3.TextColor3 = Color3.new(0, 0, 0)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14
+TextLabel_3.TextWrapped = true
+
+fa.Name = "fa"
+fa.Parent = Frame
+fa.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+fa.BorderColor3 = Color3.new(0, 0, 0)
+fa.BorderSizePixel = 3
+fa.Position = UDim2.new(0.4736, 0, 0.754143655, 0)
+fa.Size = UDim2.new(0, 86, 0, 69)
+fa.Font = Enum.Font.Code
+fa.Text = "FE Fling All"
+fa.TextColor3 = Color3.new(0, 0, 0)
+fa.TextScaled = true
+fa.TextSize = 14
+fa.TextWrapped = true
+
+CS.Name = "CS"
+CS.Parent = Frame
+CS.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+CS.BorderColor3 = Color3.new(0, 0, 0)
+CS.BorderSizePixel = 3
+CS.Position = UDim2.new(0.659200013, 0, 0.754143655, 0)
+CS.Size = UDim2.new(0, 86, 0, 69)
+CS.Font = Enum.Font.Code
+CS.Text = "Chat Hax V2"
+CS.TextColor3 = Color3.new(0, 0, 0)
+CS.TextScaled = true
+CS.TextSize = 14
+CS.TextWrapped = true
+
+g.Name = "g"
+g.Parent = Frame
+g.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+g.BorderColor3 = Color3.new(0, 0, 0)
+g.BorderSizePixel = 3
+g.Position = UDim2.new(0.844799995, 0, 0.754143655, 0)
+g.Size = UDim2.new(0, 86, 0, 69)
+g.Font = Enum.Font.Code
+g.Text = "Hacker Chat"
+g.TextColor3 = Color3.new(0, 0, 0)
+g.TextScaled = true
+g.TextSize = 14
+g.TextWrapped = true
+
+mm2.Name = "mm2"
+mm2.Parent = Frame
+mm2.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+mm2.BorderColor3 = Color3.new(0, 0, 0)
+mm2.BorderSizePixel = 3
+mm2.Position = UDim2.new(0.732800007, 0, 0.411602199, 0)
+mm2.Size = UDim2.new(0, 122, 0, 48)
+mm2.Font = Enum.Font.Code
+mm2.Text = "MM2 IDK"
+mm2.TextColor3 = Color3.new(0, 0, 0)
+mm2.TextScaled = true
+mm2.TextSize = 14
+mm2.TextWrapped = true
+
+RE.Name = "RE"
+RE.Parent = Frame
+RE.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+RE.BorderColor3 = Color3.new(0, 0, 0)
+RE.BorderSizePixel = 3
+RE.Position = UDim2.new(0.732800007, 0, 0.220994473, 0)
+RE.Size = UDim2.new(0, 122, 0, 48)
+RE.Font = Enum.Font.Code
+RE.Text = "CookieHub Ragdoll Engine"
+RE.TextColor3 = Color3.new(0, 0, 0)
+RE.TextScaled = true
+RE.TextSize = 14
+RE.TextWrapped = true
+
+PL.Name = "PL"
+PL.Parent = Frame
+PL.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+PL.BorderColor3 = Color3.new(0, 0, 0)
+PL.BorderSizePixel = 3
+PL.Position = UDim2.new(0.499199986, 0, 0.220994473, 0)
+PL.Size = UDim2.new(0, 122, 0, 48)
+PL.Font = Enum.Font.Code
+PL.Text = "Prison Life Tiger Admin"
+PL.TextColor3 = Color3.new(0, 0, 0)
+PL.TextScaled = true
+PL.TextSize = 14
+PL.TextWrapped = true
+
+JSUWP.Name = "JSUWP"
+JSUWP.Parent = Frame
+JSUWP.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+JSUWP.BorderColor3 = Color3.new(0, 0, 0)
+JSUWP.BorderSizePixel = 3
+JSUWP.Position = UDim2.new(0.499199986, 0, 0.411602199, 0)
+JSUWP.Size = UDim2.new(0, 122, 0, 48)
+JSUWP.Font = Enum.Font.Code
+JSUWP.Text = "Jailbreak Sensation UWP"
+JSUWP.TextColor3 = Color3.new(0, 0, 0)
+JSUWP.TextScaled = true
+JSUWP.TextSize = 14
+JSUWP.TextWrapped = true
+
+TextLabel_4.Parent = MAIN
+TextLabel_4.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+TextLabel_4.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_4.BorderSizePixel = 5
+TextLabel_4.Size = UDim2.new(0, 625, 0, 23)
+TextLabel_4.Font = Enum.Font.Gotham
+TextLabel_4.Text = "Xgh's Fun GUI - Lunix Development"
+TextLabel_4.TextColor3 = Color3.new(0, 0, 0)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14
+TextLabel_4.TextWrapped = true
+
+-- Scripts
+
+local function NEEW_fake_script() -- OpenUI.Script 
+	local script = Instance.new('Script', OpenUI)
+
+	local OB = script.Parent
+	local Main = OB.Parent.MAIN
+	
+	OB.MouseButton1Click:Connect(function()
+		Main.Visible = true
+	end)
+end
+coroutine.wrap(NEEW_fake_script)()
+local function LYCNZ_fake_script() -- InfYeild.Script 
+	local script = Instance.new('Script', InfYeild)
+
+	local InfYeild = script.Parent
+	
+	InfYeild.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+end
+coroutine.wrap(LYCNZ_fake_script)()
+local function GCIGCGA_fake_script() -- DestroyButton.Script 
+	local script = Instance.new('Script', DestroyButton)
+
+	local DB = script.Parent
+	local main = DB.Parent.Parent
+	
+	DB.MouseButton1Click:Connect(function()
+		main:Destroy()
+	end)
+end
+coroutine.wrap(GCIGCGA_fake_script)()
+local function XPVFN_fake_script() -- Fates.Script 
+	local script = Instance.new('Script', Fates)
+
+	local Fates = script.Parent
+	
+	Fates.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
+	end)
+end
+coroutine.wrap(XPVFN_fake_script)()
+local function FXXMUQ_fake_script() -- CMDX.Script 
+	local script = Instance.new('Script', CMDX)
+
+	local CMDX = script.Parent
+	
+	CMDX.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+	end)
+end
+coroutine.wrap(FXXMUQ_fake_script)()
+local function XKXP_fake_script() -- CloseB.Script 
+	local script = Instance.new('Script', CloseB)
+
+	local closeB = script.Parent
+	local Main = closeB.Parent.Parent
+	
+	closeB.MouseButton1Click:Connect(function()
+		Main.Visible = false
+	end)
+end
+coroutine.wrap(XKXP_fake_script)()
+local function IFUJVYO_fake_script() -- UH.Script 
+	local script = Instance.new('Script', UH)
+
+	local CH = script.Parent
+	
+	CH.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+	end)
+end
+coroutine.wrap(IFUJVYO_fake_script)()
+local function SFZB_fake_script() -- DDV3.Script 
+	local script = Instance.new('Script', DDV3)
+
+	local DDV3 = script.Parent
+	
+	DDV3.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+	end)
+end
+coroutine.wrap(SFZB_fake_script)()
+local function KKMPQRW_fake_script() -- CB2.Script 
+	local script = Instance.new('Script', CB2)
+
+	local CB2 = script.Parent
+	
+	CB2.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Suno0526/Faith/main/module.lua', true))()
+	end)
+end
+coroutine.wrap(KKMPQRW_fake_script)()
+local function GTLVDQZ_fake_script() -- EC.Script 
+	local script = Instance.new('Script', EC)
+
+	local CB2 = script.Parent
+	
+	CB2.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Lunix1747/EmojiList/main/.gitignore'))()
+	end)
+end
+coroutine.wrap(GTLVDQZ_fake_script)()
+local function ZREIH_fake_script() -- ae.Script 
+	local script = Instance.new('Script', ae)
+
+	local CB2 = script.Parent
+	
+	CB2.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/paradoxhubv2/paradoxhub/main/UNIVERSALCHEAT.LUA",true))()
+	end)
+end
+coroutine.wrap(ZREIH_fake_script)()
+local function KALQVXX_fake_script() -- fa.Script 
+	local script = Instance.new('Script', fa)
+
+	local CH = script.Parent
+	
+	CH.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/i4mitty/Cookie-Hub/main/Cookie-Hub.lua"))()
+	end)
+end
+coroutine.wrap(KALQVXX_fake_script)()
+local function XKNDKH_fake_script() -- CS.Script 
+	local script = Instance.new('Script', CS)
+
+	local CH = script.Parent
+	
+	CH.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/VZMaRQ5v"))()
+	end)
+end
+coroutine.wrap(XKNDKH_fake_script)()
+local function WFFWS_fake_script() -- g.Script 
+	local script = Instance.new('Script', g)
+
+	local CH = script.Parent
+	
+	CH.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts-3/main/hacker%20chat.lua"))()
+	end)
+end
+coroutine.wrap(WFFWS_fake_script)()
+local function OTJIA_fake_script() -- mm2.Script 
+	local script = Instance.new('Script', mm2)
+
+	local MM2 = script.Parent
+	
+	MM2.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/antipipka/roblox/main/77_E35H4PC.lua"))()
+	end)
+end
+coroutine.wrap(OTJIA_fake_script)()
+local function CGPAXF_fake_script() -- RE.Script 
+	local script = Instance.new('Script', RE)
+
+	local CH = script.Parent
+	
+	CH.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/i4mitty/Cookie-Hub/main/Cookie-Hub.lua"))()
+	end)
+end
+coroutine.wrap(CGPAXF_fake_script)()
+local function QTMWEZ_fake_script() -- PL.Script 
+	local script = Instance.new('Script', PL)
+
+	local PL = script.Parent
+	
+	PL.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/Script'))()
+	end)
+end
+coroutine.wrap(QTMWEZ_fake_script)()
+local function GBOMWUQ_fake_script() -- JSUWP.Script 
+	local script = Instance.new('Script', JSUWP)
+
+	local JB = script.Parent
+	
+	JB.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/99606f43e2dac85f6afc1d93d0a02d2d.lua"))()
+	end)
+end
+coroutine.wrap(GBOMWUQ_fake_script)()
+local function UOJKBD_fake_script() -- MAIN.Dragify 
+	local script = Instance.new('LocalScript', MAIN)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(UOJKBD_fake_script)()
