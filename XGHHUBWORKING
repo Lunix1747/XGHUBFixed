@@ -366,7 +366,7 @@ TextLabel_4.TextWrapped = true
 
 -- Scripts
 
-local function NEEW_fake_script() -- OpenUI.Script 
+local function TMUZG_fake_script() -- OpenUI.Script 
 	local script = Instance.new('Script', OpenUI)
 
 	local OB = script.Parent
@@ -376,8 +376,8 @@ local function NEEW_fake_script() -- OpenUI.Script
 		Main.Visible = true
 	end)
 end
-coroutine.wrap(NEEW_fake_script)()
-local function LYCNZ_fake_script() -- InfYeild.Script 
+coroutine.wrap(TMUZG_fake_script)()
+local function BCFADP_fake_script() -- InfYeild.Script 
 	local script = Instance.new('Script', InfYeild)
 
 	local InfYeild = script.Parent
@@ -386,19 +386,21 @@ local function LYCNZ_fake_script() -- InfYeild.Script
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(LYCNZ_fake_script)()
-local function GCIGCGA_fake_script() -- DestroyButton.Script 
+coroutine.wrap(BCFADP_fake_script)()
+local function GNSCPH_fake_script() -- DestroyButton.Script 
 	local script = Instance.new('Script', DestroyButton)
 
 	local DB = script.Parent
 	local main = DB.Parent.Parent
+	local openui = main.Parent.OpenUI
 	
 	DB.MouseButton1Click:Connect(function()
 		main:Destroy()
+		openui:Destroy()
 	end)
 end
-coroutine.wrap(GCIGCGA_fake_script)()
-local function XPVFN_fake_script() -- Fates.Script 
+coroutine.wrap(GNSCPH_fake_script)()
+local function RUAI_fake_script() -- Fates.Script 
 	local script = Instance.new('Script', Fates)
 
 	local Fates = script.Parent
@@ -407,8 +409,8 @@ local function XPVFN_fake_script() -- Fates.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
 	end)
 end
-coroutine.wrap(XPVFN_fake_script)()
-local function FXXMUQ_fake_script() -- CMDX.Script 
+coroutine.wrap(RUAI_fake_script)()
+local function EGMFK_fake_script() -- CMDX.Script 
 	local script = Instance.new('Script', CMDX)
 
 	local CMDX = script.Parent
@@ -417,8 +419,8 @@ local function FXXMUQ_fake_script() -- CMDX.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
 	end)
 end
-coroutine.wrap(FXXMUQ_fake_script)()
-local function XKXP_fake_script() -- CloseB.Script 
+coroutine.wrap(EGMFK_fake_script)()
+local function RNWZON_fake_script() -- CloseB.Script 
 	local script = Instance.new('Script', CloseB)
 
 	local closeB = script.Parent
@@ -428,8 +430,8 @@ local function XKXP_fake_script() -- CloseB.Script
 		Main.Visible = false
 	end)
 end
-coroutine.wrap(XKXP_fake_script)()
-local function IFUJVYO_fake_script() -- UH.Script 
+coroutine.wrap(RNWZON_fake_script)()
+local function AJUEREB_fake_script() -- UH.Script 
 	local script = Instance.new('Script', UH)
 
 	local CH = script.Parent
@@ -438,8 +440,8 @@ local function IFUJVYO_fake_script() -- UH.Script
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
 	end)
 end
-coroutine.wrap(IFUJVYO_fake_script)()
-local function SFZB_fake_script() -- DDV3.Script 
+coroutine.wrap(AJUEREB_fake_script)()
+local function YTEAT_fake_script() -- DDV3.Script 
 	local script = Instance.new('Script', DDV3)
 
 	local DDV3 = script.Parent
@@ -448,8 +450,8 @@ local function SFZB_fake_script() -- DDV3.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
 	end)
 end
-coroutine.wrap(SFZB_fake_script)()
-local function KKMPQRW_fake_script() -- CB2.Script 
+coroutine.wrap(YTEAT_fake_script)()
+local function YUGFOYT_fake_script() -- CB2.Script 
 	local script = Instance.new('Script', CB2)
 
 	local CB2 = script.Parent
@@ -458,8 +460,8 @@ local function KKMPQRW_fake_script() -- CB2.Script
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Suno0526/Faith/main/module.lua', true))()
 	end)
 end
-coroutine.wrap(KKMPQRW_fake_script)()
-local function GTLVDQZ_fake_script() -- EC.Script 
+coroutine.wrap(YUGFOYT_fake_script)()
+local function CDVBZK_fake_script() -- EC.Script 
 	local script = Instance.new('Script', EC)
 
 	local CB2 = script.Parent
@@ -468,8 +470,8 @@ local function GTLVDQZ_fake_script() -- EC.Script
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Lunix1747/EmojiList/main/.gitignore'))()
 	end)
 end
-coroutine.wrap(GTLVDQZ_fake_script)()
-local function ZREIH_fake_script() -- ae.Script 
+coroutine.wrap(CDVBZK_fake_script)()
+local function HVUYL_fake_script() -- ae.Script 
 	local script = Instance.new('Script', ae)
 
 	local CB2 = script.Parent
@@ -478,8 +480,8 @@ local function ZREIH_fake_script() -- ae.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/paradoxhubv2/paradoxhub/main/UNIVERSALCHEAT.LUA",true))()
 	end)
 end
-coroutine.wrap(ZREIH_fake_script)()
-local function KALQVXX_fake_script() -- fa.Script 
+coroutine.wrap(HVUYL_fake_script)()
+local function BIHJ_fake_script() -- fa.Script 
 	local script = Instance.new('Script', fa)
 
 	local CH = script.Parent
@@ -488,8 +490,8 @@ local function KALQVXX_fake_script() -- fa.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/i4mitty/Cookie-Hub/main/Cookie-Hub.lua"))()
 	end)
 end
-coroutine.wrap(KALQVXX_fake_script)()
-local function XKNDKH_fake_script() -- CS.Script 
+coroutine.wrap(BIHJ_fake_script)()
+local function ZCFHQJU_fake_script() -- CS.Script 
 	local script = Instance.new('Script', CS)
 
 	local CH = script.Parent
@@ -498,8 +500,8 @@ local function XKNDKH_fake_script() -- CS.Script
 		loadstring(game:HttpGet("https://pastebin.com/raw/VZMaRQ5v"))()
 	end)
 end
-coroutine.wrap(XKNDKH_fake_script)()
-local function WFFWS_fake_script() -- g.Script 
+coroutine.wrap(ZCFHQJU_fake_script)()
+local function UOCQWL_fake_script() -- g.Script 
 	local script = Instance.new('Script', g)
 
 	local CH = script.Parent
@@ -508,8 +510,8 @@ local function WFFWS_fake_script() -- g.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts-3/main/hacker%20chat.lua"))()
 	end)
 end
-coroutine.wrap(WFFWS_fake_script)()
-local function OTJIA_fake_script() -- mm2.Script 
+coroutine.wrap(UOCQWL_fake_script)()
+local function GJNSU_fake_script() -- mm2.Script 
 	local script = Instance.new('Script', mm2)
 
 	local MM2 = script.Parent
@@ -518,8 +520,8 @@ local function OTJIA_fake_script() -- mm2.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/antipipka/roblox/main/77_E35H4PC.lua"))()
 	end)
 end
-coroutine.wrap(OTJIA_fake_script)()
-local function CGPAXF_fake_script() -- RE.Script 
+coroutine.wrap(GJNSU_fake_script)()
+local function XLLZTF_fake_script() -- RE.Script 
 	local script = Instance.new('Script', RE)
 
 	local CH = script.Parent
@@ -528,8 +530,8 @@ local function CGPAXF_fake_script() -- RE.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/i4mitty/Cookie-Hub/main/Cookie-Hub.lua"))()
 	end)
 end
-coroutine.wrap(CGPAXF_fake_script)()
-local function QTMWEZ_fake_script() -- PL.Script 
+coroutine.wrap(XLLZTF_fake_script)()
+local function MGRFXI_fake_script() -- PL.Script 
 	local script = Instance.new('Script', PL)
 
 	local PL = script.Parent
@@ -538,8 +540,8 @@ local function QTMWEZ_fake_script() -- PL.Script
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/Script'))()
 	end)
 end
-coroutine.wrap(QTMWEZ_fake_script)()
-local function GBOMWUQ_fake_script() -- JSUWP.Script 
+coroutine.wrap(MGRFXI_fake_script)()
+local function FEJKW_fake_script() -- JSUWP.Script 
 	local script = Instance.new('Script', JSUWP)
 
 	local JB = script.Parent
@@ -548,8 +550,8 @@ local function GBOMWUQ_fake_script() -- JSUWP.Script
 		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/99606f43e2dac85f6afc1d93d0a02d2d.lua"))()
 	end)
 end
-coroutine.wrap(GBOMWUQ_fake_script)()
-local function UOJKBD_fake_script() -- MAIN.Dragify 
+coroutine.wrap(FEJKW_fake_script)()
+local function YAWXJ_fake_script() -- MAIN.Dragify 
 	local script = Instance.new('LocalScript', MAIN)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -592,4 +594,4 @@ local function UOJKBD_fake_script() -- MAIN.Dragify
 		end
 	end)
 end
-coroutine.wrap(UOJKBD_fake_script)()
+coroutine.wrap(YAWXJ_fake_script)()
