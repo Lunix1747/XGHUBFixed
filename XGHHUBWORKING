@@ -10,7 +10,6 @@
 -- Instances
 
 local LunixUI = Instance.new("ScreenGui")
-local OpenUI = Instance.new("TextButton")
 local MAIN = Instance.new("Frame")
 local Frame = Instance.new("Frame")
 local ScrollUI = Instance.new("ScrollingFrame")
@@ -44,28 +43,45 @@ local PL = Instance.new("TextButton")
 local JSUWP = Instance.new("TextButton")
 local KAT = Instance.new("TextButton")
 local DH = Instance.new("TextButton")
+local SS = Instance.new("TextButton")
+local SH2 = Instance.new("TextButton")
+local Tab2opener = Instance.new("TextButton")
+local NDS = Instance.new("TextButton")
+local BABFT = Instance.new("TextButton")
+local Doors = Instance.new("TextButton")
+local MADC = Instance.new("TextButton")
+local GoogolUni = Instance.new("TextButton")
+local SSOP = Instance.new("TextButton")
+local DGS = Instance.new("TextButton")
+local Frame_2 = Instance.new("Frame")
 local TextLabel_4 = Instance.new("TextLabel")
 local MoreG = Instance.new("TextButton")
+local PaGe2 = Instance.new("Frame")
+local Frame_3 = Instance.new("Frame")
+local Back1 = Instance.new("TextButton")
+local c10 = Instance.new("TextButton")
+local c2 = Instance.new("TextButton")
+local c3 = Instance.new("TextButton")
+local Back2 = Instance.new("TextButton")
+local c100 = Instance.new("TextButton")
+local c20 = Instance.new("TextButton")
+local c30 = Instance.new("TextButton")
+local c300 = Instance.new("TextButton")
+local c200 = Instance.new("TextButton")
+local c1 = Instance.new("TextButton")
+local Back3 = Instance.new("TextButton")
+local c3000 = Instance.new("TextButton")
+local c2000 = Instance.new("TextButton")
+local c1000 = Instance.new("TextButton")
+local Back4 = Instance.new("TextButton")
+local TextLabel_5 = Instance.new("TextLabel")
+local OpenUI = Instance.new("TextButton")
 
 -- Properties
 
 LunixUI.Name = "LunixUI"
 LunixUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 LunixUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-
-OpenUI.Name = "OpenUI"
-OpenUI.Parent = LunixUI
-OpenUI.BackgroundColor3 = Color3.new(0.364706, 0.364706, 0.364706)
-OpenUI.BorderColor3 = Color3.new(0, 0, 0)
-OpenUI.BorderSizePixel = 3
-OpenUI.Position = UDim2.new(-0.000346952816, 0, 0.41747573, 0)
-OpenUI.Size = UDim2.new(0, 117, 0, 41)
-OpenUI.Font = Enum.Font.SourceSans
-OpenUI.Text = "Open UI"
-OpenUI.TextColor3 = Color3.new(0, 0, 0)
-OpenUI.TextScaled = true
-OpenUI.TextSize = 14
-OpenUI.TextWrapped = true
 
 MAIN.Name = "MAIN"
 MAIN.Parent = LunixUI
@@ -411,8 +427,8 @@ mm2.Parent = Frame
 mm2.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
 mm2.BorderColor3 = Color3.new(0, 0, 0)
 mm2.BorderSizePixel = 3
-mm2.Position = UDim2.new(0.771200001, 0, 0.41988951, 0)
-mm2.Size = UDim2.new(0, 82, 0, 48)
+mm2.Position = UDim2.new(0.73234725, 0, 0.41988951, 0)
+mm2.Size = UDim2.new(0, 70, 0, 48)
 mm2.Font = Enum.Font.Code
 mm2.Text = "MM2 IDK"
 mm2.TextColor3 = Color3.new(0, 0, 0)
@@ -425,8 +441,8 @@ RE.Parent = Frame
 RE.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
 RE.BorderColor3 = Color3.new(0, 0, 0)
 RE.BorderSizePixel = 3
-RE.Position = UDim2.new(0.771200001, 0, 0.229281768, 0)
-RE.Size = UDim2.new(0, 82, 0, 48)
+RE.Position = UDim2.new(0.73234725, 0, 0.229281768, 0)
+RE.Size = UDim2.new(0, 70, 0, 48)
 RE.Font = Enum.Font.Code
 RE.Text = "CookieHub Ragdoll Engine"
 RE.TextColor3 = Color3.new(0, 0, 0)
@@ -440,7 +456,7 @@ PL.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
 PL.BorderColor3 = Color3.new(0, 0, 0)
 PL.BorderSizePixel = 3
 PL.Position = UDim2.new(0.4736, 0, 0.229281768, 0)
-PL.Size = UDim2.new(0, 77, 0, 48)
+PL.Size = UDim2.new(0, 66, 0, 48)
 PL.Font = Enum.Font.Code
 PL.Text = "Prison Life Tiger Admin"
 PL.TextColor3 = Color3.new(0, 0, 0)
@@ -454,7 +470,7 @@ JSUWP.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
 JSUWP.BorderColor3 = Color3.new(0, 0, 0)
 JSUWP.BorderSizePixel = 3
 JSUWP.Position = UDim2.new(0.4736, 0, 0.41988951, 0)
-JSUWP.Size = UDim2.new(0, 77, 0, 48)
+JSUWP.Size = UDim2.new(0, 66, 0, 48)
 JSUWP.Font = Enum.Font.Code
 JSUWP.Text = "Jailbreak Sensation UWP"
 JSUWP.TextColor3 = Color3.new(0, 0, 0)
@@ -467,8 +483,8 @@ KAT.Parent = Frame
 KAT.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
 KAT.BorderColor3 = Color3.new(0, 0, 0)
 KAT.BorderSizePixel = 3
-KAT.Position = UDim2.new(0.615999997, 0, 0.229281768, 0)
-KAT.Size = UDim2.new(0, 86, 0, 48)
+KAT.Position = UDim2.new(0.59740907, 0, 0.229281768, 0)
+KAT.Size = UDim2.new(0, 74, 0, 48)
 KAT.Font = Enum.Font.Code
 KAT.Text = "KAT King's Hub"
 KAT.TextColor3 = Color3.new(0, 0, 0)
@@ -481,14 +497,168 @@ DH.Parent = Frame
 DH.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
 DH.BorderColor3 = Color3.new(0, 0, 0)
 DH.BorderSizePixel = 3
-DH.Position = UDim2.new(0.615999997, 0, 0.41988951, 0)
-DH.Size = UDim2.new(0, 86, 0, 48)
+DH.Position = UDim2.new(0.59740907, 0, 0.41988951, 0)
+DH.Size = UDim2.new(0, 74, 0, 48)
 DH.Font = Enum.Font.Code
 DH.Text = "DA HOOD"
 DH.TextColor3 = Color3.new(0, 0, 0)
 DH.TextScaled = true
 DH.TextSize = 14
 DH.TextWrapped = true
+
+SS.Name = "SS"
+SS.Parent = Frame
+SS.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+SS.BorderColor3 = Color3.new(0, 0, 0)
+SS.BorderSizePixel = 3
+SS.Position = UDim2.new(0.263999999, 0, 0.113259666, 0)
+SS.Size = UDim2.new(0, 92, 0, 59)
+SS.Font = Enum.Font.Code
+SS.Text = "Script Searcher"
+SS.TextColor3 = Color3.new(0, 0, 0)
+SS.TextScaled = true
+SS.TextSize = 14
+SS.TextWrapped = true
+
+SH2.Name = "SH2"
+SH2.Parent = Frame
+SH2.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+SH2.BorderColor3 = Color3.new(0, 0, 0)
+SH2.BorderSizePixel = 3
+SH2.Position = UDim2.new(0.867200017, 0, 0.229281768, 0)
+SH2.Size = UDim2.new(0, 72, 0, 48)
+SH2.Font = Enum.Font.Code
+SH2.Text = "Sirius Hub"
+SH2.TextColor3 = Color3.new(0, 0, 0)
+SH2.TextScaled = true
+SH2.TextSize = 14
+SH2.TextWrapped = true
+
+Tab2opener.Name = "Tab2opener"
+Tab2opener.Parent = Frame
+Tab2opener.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+Tab2opener.BorderColor3 = Color3.new(0, 0, 0)
+Tab2opener.BorderSizePixel = 3
+Tab2opener.Position = UDim2.new(0.867200017, 0, 0.41988951, 0)
+Tab2opener.Size = UDim2.new(0, 72, 0, 48)
+Tab2opener.Font = Enum.Font.Code
+Tab2opener.Text = "Tab 2"
+Tab2opener.TextColor3 = Color3.new(0, 0, 0)
+Tab2opener.TextScaled = true
+Tab2opener.TextSize = 14
+Tab2opener.TextWrapped = true
+
+NDS.Name = "NDS"
+NDS.Parent = Frame
+NDS.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+NDS.BorderColor3 = Color3.new(0, 0, 0)
+NDS.BorderSizePixel = 3
+NDS.Position = UDim2.new(0.00480000023, 0, 1.01657462, 0)
+NDS.Size = UDim2.new(0, 66, 0, 51)
+NDS.ZIndex = 3
+NDS.Font = Enum.Font.Code
+NDS.Text = "Natural Disaster Survival"
+NDS.TextColor3 = Color3.new(0, 0, 0)
+NDS.TextScaled = true
+NDS.TextSize = 14
+NDS.TextWrapped = true
+
+BABFT.Name = "BABFT"
+BABFT.Parent = Frame
+BABFT.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+BABFT.BorderColor3 = Color3.new(0, 0, 0)
+BABFT.BorderSizePixel = 3
+BABFT.Position = UDim2.new(0.428799987, 0, 1.01657462, 0)
+BABFT.Size = UDim2.new(0, 78, 0, 51)
+BABFT.ZIndex = 3
+BABFT.Font = Enum.Font.Code
+BABFT.Text = "Build A Boat"
+BABFT.TextColor3 = Color3.new(0, 0, 0)
+BABFT.TextScaled = true
+BABFT.TextSize = 14
+BABFT.TextWrapped = true
+
+Doors.Name = "Doors"
+Doors.Parent = Frame
+Doors.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+Doors.BorderColor3 = Color3.new(0, 0, 0)
+Doors.BorderSizePixel = 3
+Doors.Position = UDim2.new(0.583547294, 0, 1.01657462, 0)
+Doors.Size = UDim2.new(0, 70, 0, 51)
+Doors.ZIndex = 3
+Doors.Font = Enum.Font.Code
+Doors.Text = "DOORS"
+Doors.TextColor3 = Color3.new(0, 0, 0)
+Doors.TextScaled = true
+Doors.TextSize = 14
+Doors.TextWrapped = true
+
+MADC.Name = "MADC"
+MADC.Parent = Frame
+MADC.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+MADC.BorderColor3 = Color3.new(0, 0, 0)
+MADC.BorderSizePixel = 3
+MADC.Position = UDim2.new(0.289147258, 0, 1.01657462, 0)
+MADC.Size = UDim2.new(0, 70, 0, 51)
+MADC.ZIndex = 3
+MADC.Font = Enum.Font.Code
+MADC.Text = "MadCity"
+MADC.TextColor3 = Color3.new(0, 0, 0)
+MADC.TextScaled = true
+MADC.TextSize = 14
+MADC.TextWrapped = true
+
+GoogolUni.Name = "GoogolUni"
+GoogolUni.Parent = Frame
+GoogolUni.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+GoogolUni.BorderColor3 = Color3.new(0, 0, 0)
+GoogolUni.BorderSizePixel = 3
+GoogolUni.Position = UDim2.new(0.13500908, 0, 1.01657462, 0)
+GoogolUni.Size = UDim2.new(0, 74, 0, 51)
+GoogolUni.ZIndex = 3
+GoogolUni.Font = Enum.Font.Code
+GoogolUni.Text = "Googol Univseral"
+GoogolUni.TextColor3 = Color3.new(0, 0, 0)
+GoogolUni.TextScaled = true
+GoogolUni.TextSize = 14
+GoogolUni.TextWrapped = true
+
+SSOP.Name = "SSOP"
+SSOP.Parent = Frame
+SSOP.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+SSOP.BorderColor3 = Color3.new(0, 0, 0)
+SSOP.BorderSizePixel = 3
+SSOP.Position = UDim2.new(0.871008992, 0, 1.01657462, 0)
+SSOP.Size = UDim2.new(0, 74, 0, 51)
+SSOP.ZIndex = 3
+SSOP.Font = Enum.Font.Code
+SSOP.Text = "Sushi Shop Sim OP Script"
+SSOP.TextColor3 = Color3.new(0, 0, 0)
+SSOP.TextScaled = true
+SSOP.TextSize = 14
+SSOP.TextWrapped = true
+
+DGS.Name = "DGS"
+DGS.Parent = Frame
+DGS.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+DGS.BorderColor3 = Color3.new(0, 0, 0)
+DGS.BorderSizePixel = 3
+DGS.Position = UDim2.new(0.736000001, 0, 1.01657462, 0)
+DGS.Size = UDim2.new(0, 66, 0, 51)
+DGS.ZIndex = 3
+DGS.Font = Enum.Font.Code
+DGS.Text = "Dont Get Licked"
+DGS.TextColor3 = Color3.new(0, 0, 0)
+DGS.TextScaled = true
+DGS.TextSize = 14
+DGS.TextWrapped = true
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.new(0.27451, 0.27451, 0.27451)
+Frame_2.BorderColor3 = Color3.new(0, 0, 0)
+Frame_2.BorderSizePixel = 3
+Frame_2.Position = UDim2.new(0, 0, 1.01657462, 0)
+Frame_2.Size = UDim2.new(0, 623, 0, 56)
 
 TextLabel_4.Parent = MAIN
 TextLabel_4.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
@@ -506,9 +676,9 @@ MoreG.Name = "MoreG"
 MoreG.Parent = MAIN
 MoreG.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
 MoreG.BorderColor3 = Color3.new(0, 0, 0)
-MoreG.BorderSizePixel = 3
-MoreG.Position = UDim2.new(1.01219594, 0, -0.213908985, 0)
-MoreG.Size = UDim2.new(0, 148, 0, 32)
+MoreG.BorderSizePixel = 5
+MoreG.Position = UDim2.new(1.01219594, 0, 0, 0)
+MoreG.Size = UDim2.new(0, 148, 0, 27)
 MoreG.Font = Enum.Font.Code
 MoreG.Text = "More Games"
 MoreG.TextColor3 = Color3.new(0, 0, 0)
@@ -516,20 +686,276 @@ MoreG.TextScaled = true
 MoreG.TextSize = 14
 MoreG.TextWrapped = true
 
+PaGe2.Name = "PaGe2"
+PaGe2.Parent = MAIN
+PaGe2.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+PaGe2.BorderColor3 = Color3.new(0, 0, 0)
+PaGe2.BorderSizePixel = 5
+PaGe2.Position = UDim2.new(-0.776000023, 0, 4.30434799, 0)
+PaGe2.Size = UDim2.new(0, 439, 0, 25)
+PaGe2.Visible = false
+
+Frame_3.Parent = PaGe2
+Frame_3.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+Frame_3.BorderColor3 = Color3.new(0, 0, 0)
+Frame_3.BorderSizePixel = 5
+Frame_3.Position = UDim2.new(0, 0, 0.959999979, 0)
+Frame_3.Size = UDim2.new(0, 439, 0, 251)
+
+Back1.Name = "Back1"
+Back1.Parent = Frame_3
+Back1.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+Back1.BorderColor3 = Color3.new(0, 0, 0)
+Back1.BorderSizePixel = 3
+Back1.Position = UDim2.new(0.0270323083, 0, 0.0609164909, 0)
+Back1.Size = UDim2.new(0, 87, 0, 39)
+Back1.Font = Enum.Font.Code
+Back1.Text = "Backdoor.exe checker"
+Back1.TextColor3 = Color3.new(0, 0, 0)
+Back1.TextScaled = true
+Back1.TextSize = 14
+Back1.TextWrapped = true
+
+c10.Name = "c10"
+c10.Parent = Frame_3
+c10.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+c10.BorderColor3 = Color3.new(0, 0, 0)
+c10.BorderSizePixel = 3
+c10.Position = UDim2.new(0.278991461, 0, 0.0609164909, 0)
+c10.Size = UDim2.new(0, 87, 0, 39)
+c10.Font = Enum.Font.Code
+c10.Text = "Server Browser"
+c10.TextColor3 = Color3.new(0, 0, 0)
+c10.TextScaled = true
+c10.TextSize = 14
+c10.TextWrapped = true
+
+c2.Name = "c2"
+c2.Parent = Frame_3
+c2.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+c2.BorderColor3 = Color3.new(0, 0, 0)
+c2.BorderSizePixel = 3
+c2.Position = UDim2.new(0.528431118, 0, 0.0609164909, 0)
+c2.Size = UDim2.new(0, 87, 0, 39)
+c2.Font = Enum.Font.Code
+c2.Text = "Chat Translator"
+c2.TextColor3 = Color3.new(0, 0, 0)
+c2.TextScaled = true
+c2.TextSize = 14
+c2.TextWrapped = true
+
+c3.Name = "c3"
+c3.Parent = Frame_3
+c3.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+c3.BorderColor3 = Color3.new(0, 0, 0)
+c3.BorderSizePixel = 3
+c3.Position = UDim2.new(0.777870655, 0, 0.0609164909, 0)
+c3.Size = UDim2.new(0, 87, 0, 39)
+c3.Font = Enum.Font.Code
+c3.Text = "Server Crasher (Some Games)"
+c3.TextColor3 = Color3.new(0, 0, 0)
+c3.TextScaled = true
+c3.TextSize = 14
+c3.TextWrapped = true
+
+Back2.Name = "Back2"
+Back2.Parent = Frame_3
+Back2.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+Back2.BorderColor3 = Color3.new(0, 0, 0)
+Back2.BorderSizePixel = 3
+Back2.Position = UDim2.new(0.0270323176, 0, 0.280039996, 0)
+Back2.Size = UDim2.new(0, 87, 0, 39)
+Back2.Font = Enum.Font.Code
+Back2.Text = "Camera Hax"
+Back2.TextColor3 = Color3.new(0, 0, 0)
+Back2.TextScaled = true
+Back2.TextSize = 14
+Back2.TextWrapped = true
+
+c100.Name = "c100"
+c100.Parent = Frame_3
+c100.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+c100.BorderColor3 = Color3.new(0, 0, 0)
+c100.BorderSizePixel = 3
+c100.Position = UDim2.new(0.278991461, 0, 0.280039996, 0)
+c100.Size = UDim2.new(0, 87, 0, 39)
+c100.Font = Enum.Font.Code
+c100.Text = "Rainbow Chat"
+c100.TextColor3 = Color3.new(0, 0, 0)
+c100.TextScaled = true
+c100.TextSize = 14
+c100.TextWrapped = true
+
+c20.Name = "c20"
+c20.Parent = Frame_3
+c20.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+c20.BorderColor3 = Color3.new(0, 0, 0)
+c20.BorderSizePixel = 3
+c20.Position = UDim2.new(0.528431118, 0, 0.280039996, 0)
+c20.Size = UDim2.new(0, 87, 0, 39)
+c20.Font = Enum.Font.Code
+c20.Text = "Rejoin Button"
+c20.TextColor3 = Color3.new(0, 0, 0)
+c20.TextScaled = true
+c20.TextSize = 14
+c20.TextWrapped = true
+
+c30.Name = "c30"
+c30.Parent = Frame_3
+c30.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+c30.BorderColor3 = Color3.new(0, 0, 0)
+c30.BorderSizePixel = 3
+c30.Position = UDim2.new(0.777870655, 0, 0.280039996, 0)
+c30.Size = UDim2.new(0, 87, 0, 39)
+c30.Font = Enum.Font.Code
+c30.Text = "FPS Increaser / Low GFX"
+c30.TextColor3 = Color3.new(0, 0, 0)
+c30.TextScaled = true
+c30.TextSize = 14
+c30.TextWrapped = true
+
+c300.Name = "c300"
+c300.Parent = Frame_3
+c300.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+c300.BorderColor3 = Color3.new(0, 0, 0)
+c300.BorderSizePixel = 3
+c300.Position = UDim2.new(0.777870655, 0, 0.491195381, 0)
+c300.Size = UDim2.new(0, 87, 0, 39)
+c300.Font = Enum.Font.Code
+c300.Text = "FE Car Modifier"
+c300.TextColor3 = Color3.new(0, 0, 0)
+c300.TextScaled = true
+c300.TextSize = 14
+c300.TextWrapped = true
+
+c200.Name = "c200"
+c200.Parent = Frame_3
+c200.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+c200.BorderColor3 = Color3.new(0, 0, 0)
+c200.BorderSizePixel = 3
+c200.Position = UDim2.new(0.528431118, 0, 0.491195381, 0)
+c200.Size = UDim2.new(0, 87, 0, 39)
+c200.Font = Enum.Font.Code
+c200.Text = "Collision Enabler"
+c200.TextColor3 = Color3.new(0, 0, 0)
+c200.TextScaled = true
+c200.TextSize = 14
+c200.TextWrapped = true
+
+c1.Name = "c1"
+c1.Parent = Frame_3
+c1.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+c1.BorderColor3 = Color3.new(0, 0, 0)
+c1.BorderSizePixel = 3
+c1.Position = UDim2.new(0.278991461, 0, 0.491195381, 0)
+c1.Size = UDim2.new(0, 87, 0, 39)
+c1.Font = Enum.Font.Code
+c1.Text = "Chat Spy"
+c1.TextColor3 = Color3.new(0, 0, 0)
+c1.TextScaled = true
+c1.TextSize = 14
+c1.TextWrapped = true
+
+Back3.Name = "Back3"
+Back3.Parent = Frame_3
+Back3.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+Back3.BorderColor3 = Color3.new(0, 0, 0)
+Back3.BorderSizePixel = 3
+Back3.Position = UDim2.new(0.0270323176, 0, 0.491195381, 0)
+Back3.Size = UDim2.new(0, 87, 0, 39)
+Back3.Font = Enum.Font.Code
+Back3.Text = "Anti Chat Ban"
+Back3.TextColor3 = Color3.new(0, 0, 0)
+Back3.TextScaled = true
+Back3.TextSize = 14
+Back3.TextWrapped = true
+
+c3000.Name = "c3000"
+c3000.Parent = Frame_3
+c3000.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+c3000.BorderColor3 = Color3.new(0, 0, 0)
+c3000.BorderSizePixel = 3
+c3000.Position = UDim2.new(0.777870655, 0, 0.714302957, 0)
+c3000.Size = UDim2.new(0, 87, 0, 39)
+c3000.Font = Enum.Font.Code
+c3000.Text = "REE HUB UNIVERSAL"
+c3000.TextColor3 = Color3.new(0, 0, 0)
+c3000.TextScaled = true
+c3000.TextSize = 14
+c3000.TextWrapped = true
+
+c2000.Name = "c2000"
+c2000.Parent = Frame_3
+c2000.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+c2000.BorderColor3 = Color3.new(0, 0, 0)
+c2000.BorderSizePixel = 3
+c2000.Position = UDim2.new(0.528431118, 0, 0.714302957, 0)
+c2000.Size = UDim2.new(0, 87, 0, 39)
+c2000.Font = Enum.Font.Code
+c2000.Text = "Audio AntiSteal"
+c2000.TextColor3 = Color3.new(0, 0, 0)
+c2000.TextScaled = true
+c2000.TextSize = 14
+c2000.TextWrapped = true
+
+c1000.Name = "c1000"
+c1000.Parent = Frame_3
+c1000.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+c1000.BorderColor3 = Color3.new(0, 0, 0)
+c1000.BorderSizePixel = 3
+c1000.Position = UDim2.new(0.278991461, 0, 0.714302957, 0)
+c1000.Size = UDim2.new(0, 87, 0, 39)
+c1000.Font = Enum.Font.Code
+c1000.Text = "Modded Pineapple Hub"
+c1000.TextColor3 = Color3.new(0, 0, 0)
+c1000.TextScaled = true
+c1000.TextSize = 14
+c1000.TextWrapped = true
+
+Back4.Name = "Back4"
+Back4.Parent = Frame_3
+Back4.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+Back4.BorderColor3 = Color3.new(0, 0, 0)
+Back4.BorderSizePixel = 3
+Back4.Position = UDim2.new(0.0270323176, 0, 0.714302957, 0)
+Back4.Size = UDim2.new(0, 87, 0, 39)
+Back4.Font = Enum.Font.Code
+Back4.Text = "Edge's Audio logger"
+Back4.TextColor3 = Color3.new(0, 0, 0)
+Back4.TextScaled = true
+Back4.TextSize = 14
+Back4.TextWrapped = true
+
+TextLabel_5.Parent = PaGe2
+TextLabel_5.BackgroundColor3 = Color3.new(0.443137, 0.443137, 0.443137)
+TextLabel_5.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_5.BorderSizePixel = 5
+TextLabel_5.Size = UDim2.new(0, 439, 0, 25)
+TextLabel_5.Font = Enum.Font.RobotoCondensed
+TextLabel_5.Text = "Xgh's Fun GUI TAB 2"
+TextLabel_5.TextColor3 = Color3.new(0, 0, 0)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14
+TextLabel_5.TextWrapped = true
+
+OpenUI.Name = "OpenUI"
+OpenUI.Parent = LunixUI
+OpenUI.BackgroundColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+OpenUI.BorderColor3 = Color3.new(0, 0, 0)
+OpenUI.BorderSizePixel = 3
+OpenUI.ClipsDescendants = true
+OpenUI.Position = UDim2.new(0.924857318, 0, 0.427184463, 0)
+OpenUI.Size = UDim2.new(0, 118, 0, 38)
+OpenUI.Font = Enum.Font.SourceSans
+OpenUI.Text = "Open UI"
+OpenUI.TextColor3 = Color3.new(0, 0, 0)
+OpenUI.TextScaled = true
+OpenUI.TextSize = 14
+OpenUI.TextWrapped = true
+
 -- Scripts
 
-local function LHTD_fake_script() -- OpenUI.Script 
-	local script = Instance.new('Script', OpenUI)
-
-	local OB = script.Parent
-	local Main = OB.Parent.MAIN
-	
-	OB.MouseButton1Click:Connect(function()
-		Main.Visible = true
-	end)
-end
-coroutine.wrap(LHTD_fake_script)()
-local function HKKPYO_fake_script() -- sbb.Script 
+local function MUPFRA_fake_script() -- sbb.Script 
 	local script = Instance.new('Script', sbb)
 
 	local SBB = script.Parent
@@ -538,8 +964,8 @@ local function HKKPYO_fake_script() -- sbb.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/ShadowBoxing"))()
 	end)
 end
-coroutine.wrap(HKKPYO_fake_script)()
-local function BBYZRFT_fake_script() -- psx.Script 
+coroutine.wrap(MUPFRA_fake_script)()
+local function BFCDO_fake_script() -- psx.Script 
 	local script = Instance.new('Script', psx)
 
 	local PSX = script.Parent
@@ -548,8 +974,8 @@ local function BBYZRFT_fake_script() -- psx.Script
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Senpaigmx/CatHubV2/main/CatHubV2.lua'))()
 	end)
 end
-coroutine.wrap(BBYZRFT_fake_script)()
-local function OANTSMS_fake_script() -- Ar.Script 
+coroutine.wrap(BFCDO_fake_script)()
+local function FGZBY_fake_script() -- Ar.Script 
 	local script = Instance.new('Script', Ar)
 
 	local AR = script.Parent
@@ -558,8 +984,8 @@ local function OANTSMS_fake_script() -- Ar.Script
 		loadstring(game:HttpGet('https://pastebin.com/raw/UNeXC0nB'))('Loader.lua')
 	end)
 end
-coroutine.wrap(OANTSMS_fake_script)()
-local function NXEE_fake_script() -- Autoc.Script 
+coroutine.wrap(FGZBY_fake_script)()
+local function RRPHUJZ_fake_script() -- Autoc.Script 
 	local script = Instance.new('Script', Autoc)
 
 	local AR = script.Parent
@@ -568,8 +994,8 @@ local function NXEE_fake_script() -- Autoc.Script
 		loadstring(game:HttpGetAsync('https://pastebin.com/raw/WgkcDYUs'))()
 	end)
 end
-coroutine.wrap(NXEE_fake_script)()
-local function ZGOOTQ_fake_script() -- IDK2.Script 
+coroutine.wrap(RRPHUJZ_fake_script)()
+local function DKWZQ_fake_script() -- IDK2.Script 
 	local script = Instance.new('Script', IDK2)
 
 	local AR = script.Parent
@@ -578,8 +1004,8 @@ local function ZGOOTQ_fake_script() -- IDK2.Script
 		loadstring(game:HttpGet("https://pastebin.com/raw/f0a3yune"))()
 	end)
 end
-coroutine.wrap(ZGOOTQ_fake_script)()
-local function KLHGK_fake_script() -- Gamedg4.Script 
+coroutine.wrap(DKWZQ_fake_script)()
+local function GTRGERA_fake_script() -- Gamedg4.Script 
 	local script = Instance.new('Script', Gamedg4)
 
 	local AR = script.Parent
@@ -588,8 +1014,8 @@ local function KLHGK_fake_script() -- Gamedg4.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
 	end)
 end
-coroutine.wrap(KLHGK_fake_script)()
-local function UDSNGM_fake_script() -- InfYeild.Script 
+coroutine.wrap(GTRGERA_fake_script)()
+local function TYTM_fake_script() -- InfYeild.Script 
 	local script = Instance.new('Script', InfYeild)
 
 	local InfYeild = script.Parent
@@ -598,8 +1024,8 @@ local function UDSNGM_fake_script() -- InfYeild.Script
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(UDSNGM_fake_script)()
-local function KZCBX_fake_script() -- DestroyButton.Script 
+coroutine.wrap(TYTM_fake_script)()
+local function UNOKJ_fake_script() -- DestroyButton.Script 
 	local script = Instance.new('Script', DestroyButton)
 
 	local DB = script.Parent
@@ -609,8 +1035,8 @@ local function KZCBX_fake_script() -- DestroyButton.Script
 		GUI:Destroy()
 	end)
 end
-coroutine.wrap(KZCBX_fake_script)()
-local function NMECVB_fake_script() -- Fates.Script 
+coroutine.wrap(UNOKJ_fake_script)()
+local function SFMI_fake_script() -- Fates.Script 
 	local script = Instance.new('Script', Fates)
 
 	local Fates = script.Parent
@@ -619,8 +1045,8 @@ local function NMECVB_fake_script() -- Fates.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
 	end)
 end
-coroutine.wrap(NMECVB_fake_script)()
-local function FJVN_fake_script() -- CMDX.Script 
+coroutine.wrap(SFMI_fake_script)()
+local function KQBWKAZ_fake_script() -- CMDX.Script 
 	local script = Instance.new('Script', CMDX)
 
 	local CMDX = script.Parent
@@ -629,8 +1055,8 @@ local function FJVN_fake_script() -- CMDX.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
 	end)
 end
-coroutine.wrap(FJVN_fake_script)()
-local function IWHWNQM_fake_script() -- CloseB.Script 
+coroutine.wrap(KQBWKAZ_fake_script)()
+local function VKRPLYY_fake_script() -- CloseB.Script 
 	local script = Instance.new('Script', CloseB)
 
 	local closeB = script.Parent
@@ -640,8 +1066,8 @@ local function IWHWNQM_fake_script() -- CloseB.Script
 		Main.Visible = false
 	end)
 end
-coroutine.wrap(IWHWNQM_fake_script)()
-local function CJTGBHF_fake_script() -- UH.Script 
+coroutine.wrap(VKRPLYY_fake_script)()
+local function URORBSQ_fake_script() -- UH.Script 
 	local script = Instance.new('Script', UH)
 
 	local CH = script.Parent
@@ -650,8 +1076,8 @@ local function CJTGBHF_fake_script() -- UH.Script
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
 	end)
 end
-coroutine.wrap(CJTGBHF_fake_script)()
-local function YIFLDWA_fake_script() -- DDV3.Script 
+coroutine.wrap(URORBSQ_fake_script)()
+local function ERIO_fake_script() -- DDV3.Script 
 	local script = Instance.new('Script', DDV3)
 
 	local DDV3 = script.Parent
@@ -660,8 +1086,8 @@ local function YIFLDWA_fake_script() -- DDV3.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
 	end)
 end
-coroutine.wrap(YIFLDWA_fake_script)()
-local function LQHZBZZ_fake_script() -- CB2.Script 
+coroutine.wrap(ERIO_fake_script)()
+local function RJCBXN_fake_script() -- CB2.Script 
 	local script = Instance.new('Script', CB2)
 
 	local CB2 = script.Parent
@@ -670,8 +1096,8 @@ local function LQHZBZZ_fake_script() -- CB2.Script
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Suno0526/Faith/main/module.lua', true))()
 	end)
 end
-coroutine.wrap(LQHZBZZ_fake_script)()
-local function MHAUWU_fake_script() -- EC.Script 
+coroutine.wrap(RJCBXN_fake_script)()
+local function LYOIRI_fake_script() -- EC.Script 
 	local script = Instance.new('Script', EC)
 
 	local CB2 = script.Parent
@@ -680,8 +1106,8 @@ local function MHAUWU_fake_script() -- EC.Script
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Lunix1747/EmojiList/main/.gitignore'))()
 	end)
 end
-coroutine.wrap(MHAUWU_fake_script)()
-local function BMYMJU_fake_script() -- ae.Script 
+coroutine.wrap(LYOIRI_fake_script)()
+local function TBTRJMP_fake_script() -- ae.Script 
 	local script = Instance.new('Script', ae)
 
 	local CB2 = script.Parent
@@ -690,8 +1116,8 @@ local function BMYMJU_fake_script() -- ae.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/paradoxhubv2/paradoxhub/main/UNIVERSALCHEAT.LUA",true))()
 	end)
 end
-coroutine.wrap(BMYMJU_fake_script)()
-local function YEQVT_fake_script() -- fa.Script 
+coroutine.wrap(TBTRJMP_fake_script)()
+local function LOGA_fake_script() -- fa.Script 
 	local script = Instance.new('Script', fa)
 
 	local CH = script.Parent
@@ -700,8 +1126,8 @@ local function YEQVT_fake_script() -- fa.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/i4mitty/Cookie-Hub/main/Cookie-Hub.lua"))()
 	end)
 end
-coroutine.wrap(YEQVT_fake_script)()
-local function SNCRM_fake_script() -- CS.Script 
+coroutine.wrap(LOGA_fake_script)()
+local function DZUZHD_fake_script() -- CS.Script 
 	local script = Instance.new('Script', CS)
 
 	local CH = script.Parent
@@ -710,8 +1136,8 @@ local function SNCRM_fake_script() -- CS.Script
 		loadstring(game:HttpGet("https://pastebin.com/raw/VZMaRQ5v"))()
 	end)
 end
-coroutine.wrap(SNCRM_fake_script)()
-local function IBVY_fake_script() -- g.Script 
+coroutine.wrap(DZUZHD_fake_script)()
+local function FVTH_fake_script() -- g.Script 
 	local script = Instance.new('Script', g)
 
 	local CH = script.Parent
@@ -720,8 +1146,8 @@ local function IBVY_fake_script() -- g.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts-3/main/hacker%20chat.lua"))()
 	end)
 end
-coroutine.wrap(IBVY_fake_script)()
-local function BVKXKW_fake_script() -- mm2.Script 
+coroutine.wrap(FVTH_fake_script)()
+local function PZTM_fake_script() -- mm2.Script 
 	local script = Instance.new('Script', mm2)
 
 	local MM2 = script.Parent
@@ -730,8 +1156,8 @@ local function BVKXKW_fake_script() -- mm2.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/antipipka/roblox/main/77_E35H4PC.lua"))()
 	end)
 end
-coroutine.wrap(BVKXKW_fake_script)()
-local function OQOLY_fake_script() -- RE.Script 
+coroutine.wrap(PZTM_fake_script)()
+local function DSXQLI_fake_script() -- RE.Script 
 	local script = Instance.new('Script', RE)
 
 	local CH = script.Parent
@@ -740,8 +1166,8 @@ local function OQOLY_fake_script() -- RE.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/i4mitty/Cookie-Hub/main/Cookie-Hub.lua"))()
 	end)
 end
-coroutine.wrap(OQOLY_fake_script)()
-local function CBVEK_fake_script() -- PL.Script 
+coroutine.wrap(DSXQLI_fake_script)()
+local function STWUX_fake_script() -- PL.Script 
 	local script = Instance.new('Script', PL)
 
 	local PL = script.Parent
@@ -750,8 +1176,8 @@ local function CBVEK_fake_script() -- PL.Script
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/Script'))()
 	end)
 end
-coroutine.wrap(CBVEK_fake_script)()
-local function QPIDTAW_fake_script() -- JSUWP.Script 
+coroutine.wrap(STWUX_fake_script)()
+local function BXKCLIS_fake_script() -- JSUWP.Script 
 	local script = Instance.new('Script', JSUWP)
 
 	local JB = script.Parent
@@ -760,8 +1186,8 @@ local function QPIDTAW_fake_script() -- JSUWP.Script
 		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/99606f43e2dac85f6afc1d93d0a02d2d.lua"))()
 	end)
 end
-coroutine.wrap(QPIDTAW_fake_script)()
-local function NNPS_fake_script() -- KAT.Script 
+coroutine.wrap(BXKCLIS_fake_script)()
+local function FAVP_fake_script() -- KAT.Script 
 	local script = Instance.new('Script', KAT)
 
 	local CH = script.Parent
@@ -770,8 +1196,8 @@ local function NNPS_fake_script() -- KAT.Script
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Knife-Ability-Test/main/Gui'))()
 	end)
 end
-coroutine.wrap(NNPS_fake_script)()
-local function YPQAM_fake_script() -- DH.Script 
+coroutine.wrap(FAVP_fake_script)()
+local function YYRL_fake_script() -- DH.Script 
 	local script = Instance.new('Script', DH)
 
 	local CH = script.Parent
@@ -786,8 +1212,110 @@ local function YPQAM_fake_script() -- DH.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/dh1", true))()
 	end)
 end
-coroutine.wrap(YPQAM_fake_script)()
-local function DYPS_fake_script() -- MAIN.Dragify 
+coroutine.wrap(YYRL_fake_script)()
+local function PTRWE_fake_script() -- SS.Script 
+	local script = Instance.new('Script', SS)
+
+	local SS = script.Parent
+	
+	SS.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/ScriptSearcher"))()
+	end)
+end
+coroutine.wrap(PTRWE_fake_script)()
+local function PJCH_fake_script() -- SH2.Script 
+	local script = Instance.new('Script', SH2)
+
+	local CH = script.Parent
+	
+	CH.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://sirius.menu/script'))()
+	end)
+end
+coroutine.wrap(PJCH_fake_script)()
+local function GGPBF_fake_script() -- Tab2opener.Script 
+	local script = Instance.new('Script', Tab2opener)
+
+	local Tab2 = script.Parent.Parent.Parent.PaGe2
+	
+	local Tab2Opener = script.Parent
+	
+	Tab2Opener.MouseButton1Click:Connect(function()
+		Tab2.Visible = not Tab2.Visible
+	end)
+end
+coroutine.wrap(GGPBF_fake_script)()
+local function TYUSSG_fake_script() -- NDS.Script 
+	local script = Instance.new('Script', NDS)
+
+	local PL = script.Parent
+	
+	PL.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxHackingProject/CHHub/main/CHHub.lua"))()
+	end)
+end
+coroutine.wrap(TYUSSG_fake_script)()
+local function VDIHAYH_fake_script() -- BABFT.Script 
+	local script = Instance.new('Script', BABFT)
+
+	local CH = script.Parent
+	
+	CH.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://rscripts.net/raw/build-a-boat-for-treasure-server-crasher-open-sourced_64badad6bd33a.txt'))()
+	end)
+end
+coroutine.wrap(VDIHAYH_fake_script)()
+local function TKPY_fake_script() -- Doors.Script 
+	local script = Instance.new('Script', Doors)
+
+	local Doors = script.Parent
+	
+	Doors.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/DOORS-awesome-script-11450"))()
+	end)
+end
+coroutine.wrap(TKPY_fake_script)()
+local function HJUKKRE_fake_script() -- MADC.Script 
+	local script = Instance.new('Script', MADC)
+
+	local CH = script.Parent
+	
+	CH.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/aymarko/ProBaconHub/main/probacon1234/aymarko/MadCity/GUI/Beta"))()
+	end)
+end
+coroutine.wrap(HJUKKRE_fake_script)()
+local function OIRDWPN_fake_script() -- GoogolUni.Script 
+	local script = Instance.new('Script', GoogolUni)
+
+	local CH = script.Parent
+	
+	CH.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Tropxzz/Scripts/main/Googol", true))()
+	end)
+end
+coroutine.wrap(OIRDWPN_fake_script)()
+local function WGKINW_fake_script() -- SSOP.Script 
+	local script = Instance.new('Script', SSOP)
+
+	local CH = script.Parent
+	
+	CH.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/BinaryDex/Scripts/main/Cloud/Sushi_Shop_Simulator.lua'))()
+	end)
+end
+coroutine.wrap(WGKINW_fake_script)()
+local function GXFTRI_fake_script() -- DGS.Script 
+	local script = Instance.new('Script', DGS)
+
+	local JB = script.Parent
+	
+	JB.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Aboahaogsigsigaivva/__Scripts/__Main/__Code/__DontLick__.lua'))('Loader.lua')
+	end)
+end
+coroutine.wrap(GXFTRI_fake_script)()
+local function LRDHL_fake_script() -- MAIN.Dragify 
 	local script = Instance.new('LocalScript', MAIN)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -830,8 +1358,8 @@ local function DYPS_fake_script() -- MAIN.Dragify
 		end
 	end)
 end
-coroutine.wrap(DYPS_fake_script)()
-local function LZSR_fake_script() -- MoreG.Script 
+coroutine.wrap(LRDHL_fake_script)()
+local function TTGG_fake_script() -- MoreG.Script 
 	local script = Instance.new('Script', MoreG)
 
 	local scroll = script.Parent.Parent.Frame.ScrollUI
@@ -842,4 +1370,219 @@ local function LZSR_fake_script() -- MoreG.Script
 		scroll.Visible = not scroll.Visible
 	end)
 end
-coroutine.wrap(LZSR_fake_script)()
+coroutine.wrap(TTGG_fake_script)()
+local function WGULZE_fake_script() -- Back1.Script 
+	local script = Instance.new('Script', Back1)
+
+	local CH = script.Parent
+	
+	CH.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua"))()
+	end)
+end
+coroutine.wrap(WGULZE_fake_script)()
+local function OTZJO_fake_script() -- c10.Script 
+	local script = Instance.new('Script', c10)
+
+	local CH = script.Parent
+	
+	CH.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://www.scriptblox.com/raw/Server-Browser_80", true))();
+	end)
+end
+coroutine.wrap(OTZJO_fake_script)()
+local function ERGP_fake_script() -- c2.Script 
+	local script = Instance.new('Script', c2)
+
+	local CH = script.Parent
+	
+	CH.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/Q0VdG4AL"))()
+	end)
+end
+coroutine.wrap(ERGP_fake_script)()
+local function FVPSGB_fake_script() -- c3.Script 
+	local script = Instance.new('Script', c3)
+
+	local CH = script.Parent
+	
+	CH.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/MfAz4qdH"))()
+	end)
+end
+coroutine.wrap(FVPSGB_fake_script)()
+local function CAWVZJ_fake_script() -- Back2.Script 
+	local script = Instance.new('Script', Back2)
+
+	local CH = script.Parent
+	
+	CH.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts-2/main/Camera%20Sliders.lua"))()
+	end)
+end
+coroutine.wrap(CAWVZJ_fake_script)()
+local function ZYANDPU_fake_script() -- c100.Script 
+	local script = Instance.new('Script', c100)
+
+	local CH = script.Parent
+	
+	CH.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts-2/main/RGB%20Bubble%20chat.Lua"))()
+	end)
+end
+coroutine.wrap(ZYANDPU_fake_script)()
+local function VSUPB_fake_script() -- c20.Script 
+	local script = Instance.new('Script', c20)
+
+	local CH = script.Parent
+	
+	CH.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts-2/main/rejoin%20button%20for%20kick%20message.lua"))()
+	end)
+end
+coroutine.wrap(VSUPB_fake_script)()
+local function YZSLAK_fake_script() -- c30.Script 
+	local script = Instance.new('Script', c30)
+
+	local CH = script.Parent
+	
+	CH.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/RW7ZT29m"))()
+	end)
+end
+coroutine.wrap(YZSLAK_fake_script)()
+local function DGEZJNG_fake_script() -- c300.Script 
+	local script = Instance.new('Script', c300)
+
+	local CH = script.Parent
+	
+	CH.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://scripts.luawl.com/Main/ScourgeVehicleMods.lua%27'))()
+	end)
+end
+coroutine.wrap(DGEZJNG_fake_script)()
+local function LBMK_fake_script() -- c200.Script 
+	local script = Instance.new('Script', c200)
+
+	local CH = script.Parent
+	
+	CH.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts/main/Local%20Full%20Player%20Collision.Lua"))()
+	end)
+end
+coroutine.wrap(LBMK_fake_script)()
+local function YAJQ_fake_script() -- c1.Script 
+	local script = Instance.new('Script', c1)
+
+	local CH = script.Parent
+	
+	CH.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/VH3Ew6Y5"))()
+	end)
+end
+coroutine.wrap(YAJQ_fake_script)()
+local function MXBQV_fake_script() -- Back3.Script 
+	local script = Instance.new('Script', Back3)
+
+	local CH = script.Parent
+	
+	CH.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/PZbnE4Fj'),true))() 
+	end)
+end
+coroutine.wrap(MXBQV_fake_script)()
+local function WVYEQE_fake_script() -- c3000.Script 
+	local script = Instance.new('Script', c3000)
+
+	local CH = script.Parent
+	
+	CH.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Tropxzz/Scripts/main/REE%20CONSOLE%20RAIDER%20FIXED", true))()
+	end)
+end
+coroutine.wrap(WVYEQE_fake_script)()
+local function JCQAWZ_fake_script() -- c2000.Script 
+	local script = Instance.new('Script', c2000)
+
+	local CH = script.Parent
+	
+	CH.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/antisteal/antisteal-main/master/ui.lua', true))()
+	end)
+end
+coroutine.wrap(JCQAWZ_fake_script)()
+local function MEUR_fake_script() -- c1000.Script 
+	local script = Instance.new('Script', c1000)
+
+	local CH = script.Parent
+	
+	CH.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Lunix1747/ModdedPineapple/main/Pine"))()
+	end)
+end
+coroutine.wrap(MEUR_fake_script)()
+local function BSBVEBT_fake_script() -- Back4.Script 
+	local script = Instance.new('Script', Back4)
+
+	local CH = script.Parent
+	
+	CH.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/wN9Q3pZm",true))()
+	end)
+end
+coroutine.wrap(BSBVEBT_fake_script)()
+local function EDDAEDG_fake_script() -- PaGe2.Dragify 
+	local script = Instance.new('LocalScript', PaGe2)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(EDDAEDG_fake_script)()
+local function JIWMBY_fake_script() -- OpenUI.Script 
+	local script = Instance.new('Script', OpenUI)
+
+	local OB = script.Parent
+	local Main = OB.Parent.MAIN
+	
+	OB.MouseButton1Click:Connect(function()
+		Main.Visible = true
+	end)
+end
+coroutine.wrap(JIWMBY_fake_script)()
